@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisionCel - Detecção de Celular por Visão Computacional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">VC</span>
+                <span class="logo-text">VisionCel</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#features">Recursos</a></li>
+                    <li><a href="#how-it-works">Como Funciona</a></li>
+                    <!--<li><a href="#pricing">Planos</a></li>-->
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+           <!-- <a href="" class="cta-button primary2">Login</a>-->
+        </div>
+    </header>
+
+    <main>
+        <section class="hero fade-in">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Detecção de Celular com IA Avançada</h1>
+                    <p class="subtitle">Nossa tecnologia de visão computacional identifica dispositivos móveis com precisão inigualável em tempo real.</p>
+                    <div class="hero-buttons">
+                        <a href="index.html" class="cta-button primary">Experimente Agora</a>
+                        <a href="#how-it-works" class="cta-button secondary">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="ai-visualization">
+                        <!-- Espaço para a visualização da IA -->
+                        <div class="detection-box"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features fade-in">
+            <div class="container">
+                <h2>Recursos Exclusivos</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Processamento em Tempo Real</h3>
+                        <p>Análise instantânea de fluxos de vídeo com latência mínima.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Alta Precisão</h3>
+                        <p>Taxa de acerto superior a 98% em diversas condições de iluminação.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3>Aprendizado Contínuo</h3>
+                        <p>Modelo que melhora com o tempo através de aprendizado de máquina.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Privacidade Garantida</h3>
+                        <p>Não armazenamos imagens ou dados pessoais dos usuários.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works fade-in">
+            <div class="container">
+                <h2>Como Nossa Tecnologia Funciona</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Captura de Imagem</h3>
+                            <p>O sistema recebe o fluxo de vídeo da câmera ou arquivo de vídeo.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Processamento por IA</h3>
+                            <p>Nossa rede neural analisa cada frame em busca de dispositivos móveis.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Identificação e Classificação</h3>
+                            <p>O sistema identifica o tipo de dispositivo e sua posição no frame.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Saída dos Resultados</h3>
+                            <p>Os dados são enviados para seu sistema em formato JSON ou via API.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- <section id="pricing" class="pricing">
+            <div class="container">
+                <h2>Planos e Preços</h2>
+                <div class="pricing-cards">
+                    <div class="pricing-card">                                PARTE DE VALORES, DEIXAR COMENTADO
+                        <h3>Básico</h3>
+                        <div class="price">R$99<span>/mês</span></div>
+                        <ul class="features-list">
+                            <li>Até 1.000 análises/dia</li>
+                            <li>1 câmera simultânea</li>
+                            <li>Suporte por e-mail</li>
+                            <li>Relatórios básicos</li>
+                        </ul>
+                        <button class="cta-button secondary">Assinar</button>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="featured-badge">Recomendado</div>
+                        <h3>Profissional</h3>
+                        <div class="price">R$299<span>/mês</span></div>
+                        <ul class="features-list">
+                            <li>Até 10.000 análises/dia</li>
+                            <li>5 câmeras simultâneas</li>
+                            <li>Suporte prioritário</li>
+                            <li>Relatórios avançados</li>
+                            <li>API acesso</li>
+                        </ul>
+                        <button class="cta-button primary">Assinar</button>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Empresarial</h3>
+                        <div class="price">Sob Consulta</div>
+                        <ul class="features-list">
+                            <li>Análises ilimitadas</li>
+                            <li>Câmeras ilimitadas</li>
+                            <li>Suporte 24/7</li>
+                            <li>Relatórios personalizados</li>
+                            <li>Integração dedicada</li>
+                        </ul>
+                        <button class="cta-button secondary">Contato</button>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+
+        <section id="contact" class="contact fade-in">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Fale Conosco</h3>
+                        <p>Tem dúvidas sobre nossa tecnologia ou como ela pode ajudar seu negócio?</p>
+                        <ul class="contact-details">
+                            <li>✉️ visionceltcc@gmail.com</li>
+                            <li>📞 (19) 97172-1983</li>
+                            <li>🏢 Leme-SP, Brasil</li>
+                        </ul>
+                    </div>
+
+                        <form action="https://formsubmit.co/visionceltcc@gmail.com" method="POST" class="contact-form fade-in">
+                             <div class="form-group">                
+                                <input type="text" name="name" placeholder="Seu Nome" required>
+                             </div>
+                             
+                             <div class="form-group">
+                                 <input type="email" name="email" placeholder="Seu E-mail" required>
+                            </div>
+
+                            <div class="form-group">
+                                 <textarea placeholder="Sua Mensagem" name="message" rows="5" required></textarea>
+                            </div>
+
+                                <input type="hidden" name="_captcha" value="false">
+
+                                <button type="submit"  class="cta-button primary">Enviar Mensagem</button>
+
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Tc/site/thanks.html">
+
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+                    <!--<form class="contact-form" action="https://formsubmit.co/visionceltcc@gmail.com" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Seu Nome" required>
+                        </div>
+                        </div>
+                            <input type="email" name="email" placeholder="Seu E-mail" required>
+                        </div>                                                                                                          ANTIGO FORM DE CONTATO
+                        <div class="form-group">                                                                                          DEIXAR COMENTADO
+                            <textarea placeholder="Sua Mensagem" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit"  class="cta-button primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>-->
+
+    <footer class="main-footer fade-in">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">VC</span>
+                    <span class="logo-text">VisionCel</span>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#features">Recursos</a></li>
+                        <li><a href="#how-it-works">Tecnologia</a></li>
+                       <!-- <li><a href="#pricing">Planos</a></li>-->
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-legal">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="termosdeuso.html">Termos de Uso</a></li>
+                        <li><a href="privacidade.html">Política de Privacidade</a></li>
+                        <li><a href="cookies.html">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Siga-nos</h4>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vision-cel-7881b3397/">LinkedIn</a>
+                       <!-- <a href="#">Twitter</a>-->
+                        <a href="https://github.com/visionceltcc">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2025 VisionCel. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CHATBOT VISIONCEL -->
+<div id="chat-button">💬</div>
+
+<div id="chat-window">
+    <div id="chat-header">Assistente VisionCel</div>
+    <div id="chat-messages"></div>
+
+    <div id="chat-input-area">
+        <input id="chat-input" type="text" placeholder="Digite sua mensagem..." />
+        <button id="send-btn">Enviar</button>
+    </div>
+</div>
+<!-- FIM CHATBOT -->
+
+    <script src="main.js"></script>
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const form = document.querySelector(".contact-form");
+
+  if (form) {
+    form.addEventListener("submit", function() {
+      // Dá um pequeno delay para garantir o envio
+      setTimeout(() => {
+        form.reset(); // limpa todos os campos
+      }, 500);
+    });
+  }
+});
+</script>
+</body>
+</html>
